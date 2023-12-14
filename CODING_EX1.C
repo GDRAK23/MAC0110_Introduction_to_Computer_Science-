@@ -2,9 +2,9 @@
 
 /*                                                           */
 
-/*   Guilherme Augusto Martins          Nº USP 7199162       */
+/*   Guilherme Augusto Martins          NÂº USP 7199162       */
 
-/*   Exercício-Programa 1                                    */
+/*   ExercÃ­cio-Programa 1                                    */
 
 /*   Professora:Leliane Barros                               */
 
@@ -146,7 +146,7 @@ int main()
           if(move==8)
 
           {
-           aux2=p9;aux3=p8;aux4=p7;aux5=p6;aux6=p5;aux7=p4;aux8=p3;aux9=p2;aux10=p1;p9=aux2;p8=aux3;p7=aux4;p6=aux5;p5=aux6;p4=aux7;p3=aux8;p2=aux9;p1=aux10; /*E vem jogando do lado, do lado de cá*/
+           aux2=p9;aux3=p8;aux4=p7;aux5=p6;aux6=p5;aux7=p4;aux8=p3;aux9=p2;aux10=p1;p9=aux2;p8=aux3;p7=aux4;p6=aux5;p5=aux6;p4=aux7;p3=aux8;p2=aux9;p1=aux10; /*E vem jogando do lado, do lado de cÃ¡*/
           }
 
             printf("\n%d | %d | %d\n",p1,p2,p3);
@@ -161,7 +161,7 @@ int main()
 
         /*Verificando se houve vencedor*/
 
-            if((p1==p2==p3) && (p1!=0 && p2!=0 && p3!=0)) /*1º Modo*/
+            if((p1==p2==p3) && (p1!=0 && p2!=0 && p3!=0)) /*1Âº Modo*/
 
             {
                 victory=1;
@@ -182,7 +182,7 @@ int main()
 
             }
 
-            if((p1==p4==p7) && (p1!=0 && p4!=0 && p7!=0)) /*2º Modo*/
+            if((p1==p4==p7) && (p1!=0 && p4!=0 && p7!=0)) /*2Âº Modo*/
 
             {
                 victory=1;
@@ -207,7 +207,7 @@ int main()
                 winner1=winneraux;
             }
 
-            if((p1==p5==p9) && (p1!=0 && p5!=0 && p9!=0)) /*3º Modo*/
+            if((p1==p5==p9) && (p1!=0 && p5!=0 && p9!=0)) /*3Âº Modo*/
 
             {
                 victory=1;
@@ -232,7 +232,7 @@ int main()
                 winner1=winneraux;
             }
 
-            if((p9==p8==p7) && (p9!=0 && p8!=0 && p7!=0)) /*4º Modo*/
+            if((p9==p8==p7) && (p9!=0 && p8!=0 && p7!=0)) /*4Âº Modo*/
 
             {
                 victory=1;
@@ -257,7 +257,7 @@ int main()
                 winner1=winneraux;
             }
 
-            if((p9==p6==p3) &&  (p9!=0 && p6!=0 && p3!=0)) /*5º Modo*/
+            if((p9==p6==p3) &&  (p9!=0 && p6!=0 && p3!=0)) /*5Âº Modo*/
 
             {
                 victory=1;
@@ -282,7 +282,7 @@ int main()
                 winner1=winneraux;
             }
 
-            if((p6==p5==p4) && (p6!=0 && p5!=0 && p4!=0)) /*6º Modo*/
+            if((p6==p5==p4) && (p6!=0 && p5!=0 && p4!=0)) /*6Âº Modo*/
 
             {
                 victory=1;
@@ -307,7 +307,7 @@ int main()
                 winner1=winneraux;
             }
 
-            if((p3==p5==p7) && (p3!=0 && p5!=0 && p7!=0)) /*7º Modo*/
+            if((p3==p5==p7) && (p3!=0 && p5!=0 && p7!=0)) /*7Âº Modo*/
 
             {
                 victory=1;
