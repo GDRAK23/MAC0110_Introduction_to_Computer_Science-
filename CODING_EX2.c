@@ -7,9 +7,9 @@
 
 /*                                                           */
 
-/*   Guilherme Augusto Martins          Nº USP 7199162       */
+/*   Guilherme Augusto Martins          NÂº USP 7199162       */
 
-/*   Exercício-Programa 2                                    */
+/*   ExercÃ­cio-Programa 2                                    */
 
 /*   Professora:Leliane Barros                               */
 
@@ -17,7 +17,7 @@
 
 /*************************************************************/
 
-/*Funções auxiliares*/
+/*FunÃ§Ãµes auxiliares*/
 
 double sen(double x)
 {
@@ -51,7 +51,7 @@ double sen(double x)
             potencia=x;
             signal=signal*-1;
 
-            while(p_>1) /*laço da potencia,percorrido n-1 vezes*/
+            while(p_>1) /*laÃ§o da potencia,percorrido n-1 vezes*/
             {
                 potencia=potencia*x;
 
@@ -59,7 +59,7 @@ double sen(double x)
 
             }
 
-            while(f_>1) /*laço do fatorial*/
+            while(f_>1) /*laÃ§o do fatorial*/
 
             {
                 fatorial=fatorial*(f_-1);
@@ -108,7 +108,7 @@ double potencia_de_euler(double x)
             fatorial=f_=p_=n;             /*atribuicoes iniciais*/
             potencia=x;
 
-            while(p_>1) /*laço da potencia,percorrido n-1 vezes*/
+            while(p_>1) /*laÃ§o da potencia,percorrido n-1 vezes*/
             {
                 potencia=potencia*x;
 
@@ -116,7 +116,7 @@ double potencia_de_euler(double x)
 
             }
 
-            while(f_>1) /*laço do fatorial*/
+            while(f_>1) /*laÃ§o do fatorial*/
 
             {
                 fatorial=fatorial*(f_-1);
@@ -169,7 +169,7 @@ double novafase (double frequencia,double fase)
 
     nova_fase=(fase+(((2*PI)*frequencia)/TAXA_AMOSTRAGEM));
 
-    /*Verifica se o angulo gerado está no intervalo 0,2pi*/
+    /*Verifica se o angulo gerado estÃ¡ no intervalo 0,2pi*/
 
     while(nova_fase>=2*PI)
 
