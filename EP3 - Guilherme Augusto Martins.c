@@ -1,20 +1,6 @@
 #include<stdio.h>
 #define MAX 128
 
-/*************************************************************/
-
-/*                                                           */
-
-/*   Guilherme Augusto Martins          Nº USP 7199162       */
-
-/*   Exercício-Programa 3                                    */
-
-/*   Professora:Leliane Barros                               */
-
-/*                                                           */
-
-/*************************************************************/
-
 /*Funcoes auxiliares*/
 
 void zere_tabuleiro(int tabuleiro[MAX][MAX],int nlin,int ncol)
@@ -444,7 +430,7 @@ int main()
         }
     }
 
-    /*Inicializando a matriz ativação*/
+    /*Inicializando a matriz ativaÃ§Ã£o*/
 
     for (lin=0; lin<m; lin++)
     {
