@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 
-int main()
+int main() 
 {
     /*Declarando,inicializando variaveis e setando o tabuleiro*/
 
